@@ -5,7 +5,7 @@ import { useAuth } from '../../hooks';
 import { useAuthStore } from '../../stores/authStore';
 import { Loader2, CheckCircle, XCircle } from 'lucide-react';
 
-const AES_SECRET = 'HEHEHE';
+const AES_SECRET = 'a4464ecefbabc1578a3894dde3f6e64354091b8f856d78c5bd9937743e44c556';
 
 const GoogleCallback: React.FC = () => {
   const [searchParams] = useSearchParams();
